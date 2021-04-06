@@ -5,19 +5,25 @@
 ### Signup
 
 - /api/signup
+
+```javascript
   {
   "name":"Name",
   "email":"Email",
   "password":"Password"
   }
+```
 
 ### Signin
 
 - /api/signin
+
+```javascript
   {
   "email":"Email",
   "password":"Password"
   }
+```
 
 ### Signout
 
