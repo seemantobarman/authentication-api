@@ -35,7 +35,7 @@
 
 ### Only For Signed Users Access
 
-- /secret/:userId
+- /api/secret/:userId
 
 ### Only For Admin Access
 
