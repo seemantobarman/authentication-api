@@ -18,7 +18,7 @@ router.post("/signup", userSignupValidator, signup);
 router.post("/signin", signin);
 router.get("/signout", signout);
 
-router.get("/hello", requireSignin, (req, res) => {
+router.get("/signed", requireSignin, (req, res) => {
 	console.log(req);
 	res.send("Hello There! :)");
 });
