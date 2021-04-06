@@ -4,33 +4,33 @@
 
 ### Signup
 
-⋅⋅\* /api/signup
-{
-"name":"Name",
-"email":"Email",
-"password":"Password"
-}
+- /api/signup
+  {
+  "name":"Name",
+  "email":"Email",
+  "password":"Password"
+  }
 
 ### Signin
 
-⋅⋅\* /api/signin
-{
-"email":"Email",
-"password":"Password"
-}
+- /api/signin
+  {
+  "email":"Email",
+  "password":"Password"
+  }
 
 ### Signout
 
-⋅⋅\* /api/signout
+- /api/signout
 
 ### Signed
 
-⋅⋅\* /api/signed
+- /api/signed
 
 ### Only For Signed Users Access
 
-⋅⋅\* /secret/:userId
+- /secret/:userId
 
 ### Only For Admin Access
 
-⋅⋅\* /api/admin/:userId
+- /api/admin/:userId
